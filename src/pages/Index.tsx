@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Shield, Scale, Briefcase, Network } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import AiChatButton from '../components/AiChatButton';
 
 const Index = () => {
   return (
@@ -24,12 +25,7 @@ const Index = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Specialized legal services for blockchain technology, smart contracts, and digital assets.
           </p>
-          <Link
-            to="/contact"
-            className="bg-law-blue hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
-          >
-            Schedule a Consultation
-          </Link>
+          <AiChatButton />
         </div>
       </div>
 
@@ -73,12 +69,7 @@ const Index = () => {
           <p className="text-xl mb-8 text-gray-600 max-w-2xl mx-auto">
             Let our team of experts help you navigate the legal complexities of blockchain technology.
           </p>
-          <Link
-            to="/contact"
-            className="bg-law-navy hover:bg-blue-900 text-white font-bold py-3 px-8 rounded-lg transition-colors"
-          >
-            Contact Us Today
-          </Link>
+          <AiChatButton />
         </div>
       </div>
 
