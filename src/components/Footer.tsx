@@ -35,8 +35,24 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>123 Blockchain Avenue</li>
               <li>New York, NY 10001</li>
-              <li>contact@xmrtlawyers.com</li>
-              <li>(555) 123-4567</li>
+              <li>
+                <a 
+                  href="mailto:xmrtsolutions@gmail.com"
+                  className="hover:text-law-blue transition-colors"
+                >
+                  xmrtsolutions@gmail.com
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://wa.me/50661500559"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-law-blue transition-colors"
+                >
+                  WhatsApp: +506 6150-0559
+                </a>
+              </li>
             </ul>
           </div>
         </div>
